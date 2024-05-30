@@ -48,7 +48,7 @@ The trained models are saved in folder `checkpoints/`
 --attn_ratio: The attention ratio in the attention block
 --itr: The experiments times
 ```
-You can see the implementation results in file 'log_PSM_il48_ol24.out'
+You can see the implementation results in file `log_PSM_il48_ol24.out` 
 
 3. To evaluate the trained model, run:
  ```python
