@@ -1,11 +1,10 @@
 # **TranAP**
 
 ## 1. Overview
-We propose a forecasting and reconstruction-based multivariate
+We propose Transformer-based Anomaly Prediction (TranAP).
+TranAP is forecasting and reconstruction-based multivariate
 time series anomaly prediction framework that does not require
-anomalous training data. Our Transformer-based Anomaly Prediction (TranAP) 
-is trained to predict future trends using only
-normal data. 
+anomalous training data. 
 
 ## 2. Code Description
 - main_TranAP.py: The main file. You can set all parameters.
