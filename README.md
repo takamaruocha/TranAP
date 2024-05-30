@@ -14,7 +14,7 @@ anomalous training data.
 - data: The pre-processing folder for datasets.
 - datasets: The dataset folder.
 - src: The evaluation metrics folder.
-- utilities: Other functions for training TranAP.
+- utilities: The other functions folder for training TranAP.
 - checkpoints: The save folder for trained models.
 
 ## 3. Dataset
