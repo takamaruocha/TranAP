@@ -45,6 +45,7 @@ python3 main_TranAP.py --data PSM --in_len 48 --out_len 48 --seg_len 12 --itr 5
 --e_layers: The number of encoder layers
 --dropout: The dropout
 --attn_ratio: The attention ratio in the attention block
+--itr: The experiments times
 ```
 3. To evaluate the trained model, run:
  ```python
