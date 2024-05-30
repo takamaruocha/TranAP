@@ -58,4 +58,4 @@ You can select the trained model from folder `checkpoints/`
 --checkpoint_root: The location of the trained model 
 --setting_name: The name of the experiment
 ```
-## 5. Reproducibility
+## 5. Citation
