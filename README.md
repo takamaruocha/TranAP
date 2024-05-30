@@ -27,7 +27,7 @@ You can download all datasets [here](https://drive.google.com/drive/folders/1RaI
 1. Download data. You can obtain all benchmarks [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 2. To train and evaluate TranAP, run:  
 ```python
-python3 main_TranAP.py --data PSM --in_len 48 --out_len 48 --seg_len 12 --itr 5
+python3 main_TranAP.py --data PSM --in_len 48 --out_len 24 --seg_len 12 --itr 5
 ```
 - Parameter options
 ```
