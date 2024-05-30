@@ -48,6 +48,8 @@ The trained models are saved in folder `checkpoints/`
 --attn_ratio: The attention ratio in the attention block
 --itr: The experiments times
 ```
+You can see the implementation results in file 'log_PSM_il48_ol24.out'
+
 3. To evaluate the trained model, run:
  ```python
 python3 eval_TranAP.py --checkpoint_root ./checkpoints/TranAP/ --setting_name TranAP_PSM_il48_ol24_ss6_sl12_win2_fa10_dm256_nh4_el3_attn0.25_itr0/
