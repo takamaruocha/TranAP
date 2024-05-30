@@ -34,7 +34,7 @@ The trained models are saved in folder `checkpoints/`
 ```
 --data: dataset
 --root_path: The root path of the data file
---checkpoints: The location to store trained model
+--checkpoints: The location to store the trained model
 --in_len: The input length
 --out_len: The prediction length
 --step_size: The step size
