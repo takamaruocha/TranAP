@@ -29,6 +29,7 @@ You can download all datasets [here](https://drive.google.com/drive/folders/1RaI
 ```python
 python3 main_TranAP.py --data PSM --in_len 48 --out_len 24 --seg_len 12 --itr 5
 ```
+The trained models are saved in folder `checkpoints/`
 - Parameter options
 ```
 --data: dataset
