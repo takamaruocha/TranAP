@@ -20,7 +20,7 @@ normal data.
 
 ## 3. Dataset
 We use SWaT, PSM, SMD, SMAP, NIPS-TIS-GECCO datasets.  
-You can use `train.csv`, `test.csv`, `test_label.csv` of the PSM dataset from folder `datasets/PSM/`  
+You can use `train.csv`, `test.csv`, and `test_label.csv` of the PSM dataset from folder `datasets/PSM/`  
 You can download all datasets [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 
 ## 4. Reproducibility
