@@ -9,7 +9,7 @@ anomalous training data.
 ## 2. Code Description
 - main_TranAP.py: The main file. You can set all parameters.
 - evap_TranAP.py: The evaluation file. You can select the trained model from folder `checkpoints/`
-- exp: The training and evaluation file of TranAP.
+- exp: The training and evaluation folder of TranAP.
 - models: The definition folder of TranAP.
 - data: The pre-processing folder for datasets.
 - datasets: The dataset folder.
