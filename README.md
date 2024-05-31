@@ -23,7 +23,7 @@ You can use `train.csv`, `test.csv`, and `test_label.csv` of the PSM dataset fro
 You can download all datasets [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 
 ## 4. Reproducibility
-1. Download data. You can obtain all benchmarks [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
+1. Download data and put them in folder `datasets/`. You can obtain all benchmarks [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 2. To train and evaluate TranAP, run:  
 ```python
 python3 main_TranAP.py --data PSM --in_len 48 --out_len 24 --seg_len 12 --itr 5
@@ -47,7 +47,7 @@ The trained models are saved in folder `checkpoints/`
 --attn_ratio: The attention ratio in the attention block
 --itr: The experiments times
 ```
-You can see the implementation results in file `log_PSM_il48_ol24.out` 
+You can see our implementation results in file `log_PSM_il48_ol24.out` 
 
 3. To evaluate the trained model, run:
  ```python
