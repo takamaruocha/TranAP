@@ -1,7 +1,7 @@
 # **TranAP**
 
 ## 1. Overview
-We propose Transformer-based Anomaly Prediction (TranAP).
+We propose Transformer-based Anomaly Prediction (TranAP) method.
 TranAP is a forecasting and reconstruction-based multivariate
 time series anomaly prediction framework that does not require
 anomalous training data. 
