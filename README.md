@@ -7,15 +7,15 @@ time series anomaly prediction framework that does not require
 anomalous training data. 
 
 ## 2. Code Description
-- main_TranAP.py: The main file. You can set all parameters.
-- evap_TranAP.py: The evaluation file. You can select the trained model from folder `checkpoints/`
-- exp: The training and evaluation folder of TranAP.
-- models: The definition folder of TranAP.
-- data: The pre-processing folder for datasets.
-- datasets: The dataset folder.
-- src: The evaluation metrics folder.
-- utilities: The other functions folder for training TranAP.
-- checkpoints: The save folder for trained models.
+- main_TranAP.py: Main file. You can set all parameters.
+- evap_TranAP.py: Evaluation file. You can select the trained model from folder `checkpoints/`
+- exp: Training and evaluation folder of TranAP.
+- models: Definition folder of TranAP.
+- data: Pre-processing folder for datasets.
+- datasets: Dataset folder.
+- src: Evaluation metrics folder.
+- utilities: Other functions folder for training TranAP.
+- checkpoints: Save folder for trained models.
 
 ## 3. Dataset
 We use SWaT, PSM, SMD, SMAP, NIPS-TIS-GECCO datasets.  
@@ -32,20 +32,20 @@ The trained models are saved in folder `checkpoints/`
 - Parameter options
 ```
 --data: dataset
---root_path: The root path of the data file
---checkpoints: The location to store the trained model
---in_len: The input length
---out_len: The prediction length
---step_size: The step size
---seg_len: The segment length
---data_dim: The dimensions of data
---d_model: The dimension of hidden states
---d_ff: The dimension of feedforward network
---n_heads: The number of heads
---e_layers: The number of encoder layers
---dropout: The dropout
---attn_ratio: The attention ratio in the attention block
---itr: The experiments times
+--root_path: Root path of the data file
+--checkpoints: Location to store the trained model
+--in_len: Input length
+--out_len: Prediction length
+--step_size: Step size
+--seg_len: Segment length
+--data_dim: Dimensions of data
+--d_model: Dimension of hidden states
+--d_ff: Dimension of feedforward network
+--n_heads: Number of heads
+--e_layers: Number of encoder layers
+--dropout: Dropout
+--attn_ratio: Attention ratio in the attention block
+--itr: Experiments times
 ```
 You can see our implementation results in file `log_PSM_il48_ol24.out` 
 
@@ -56,7 +56,6 @@ python3 eval_TranAP.py --checkpoint_root ./checkpoints/TranAP/ --setting_name Tr
 You can select the trained model from folder `checkpoints/`
 - Parameter options
 ```
---checkpoint_root: The location of the trained model 
---setting_name: The name of the experiment
+--checkpoint_root: Location of the trained model 
+--setting_name: Name of the experiment
 ```
-## 5. Citation
