@@ -53,7 +53,7 @@ You can see our implementation results in file `log_PSM_il48_ol24.out`
  ```python
 python3 eval_TranAP.py --checkpoint_root ./checkpoints/TranAP/ --setting_name TranAP_PSM_il48_ol24_ss6_sl12_win2_fa10_dm256_nh4_el3_attn0.25_itr0/
 ```
-You can select the trained model from folder `checkpoints/`
+You can select the trained model from folder `checkpoints/`.
 - Parameter options
 ```
 --checkpoint_root: Location of the trained model 
